@@ -52,23 +52,20 @@ int Lista::enitenVoittoja()
         else {
             //cout << "loytyi ennestään" << sana << endl;
             nimet[loydetty].laskuri++;
-        }
-#include <conio.h>
-    
+        }    
    }
     cout << "              *** PISTEET *** \n\n";
     qsort(nimet, sizeof nimet / sizeof * nimet, sizeof * nimet, vertaa);
     for (i = 0; i < indeksi; i++) {
 
         printf("%4s %-20s \t  %d\n","", nimet[i].nimi.c_str(), nimet[i].laskuri);
-        replace(nimet[i].nimi.begin(), nimet[i].nimi.end(), '\n', ' '); 
-
     }
     printtaaJaOdota();
     lista.close();
     cout << endl;
     return 0; 
 }
+
 /* haeNimi etsii löytyykö kyseinen nimi jo taulukosta.
    Mikäli nimi löytyy, funktio palauttaa löydetyn indeksin,
    ja jos ei löydy palauttaa -1*/
@@ -80,6 +77,7 @@ int Lista::haeNimi(string haettava)
     }   
     return -1; 
 }
+
 /* Poistaa tiedoston kokonaan, eli ei pelkästään tyhjennä.*/
 int Lista::tyhjennaLista()  
 {

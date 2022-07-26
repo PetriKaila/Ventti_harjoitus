@@ -7,7 +7,6 @@ public:
     Jakaja() {
         asetaNimi("Jakaja");
     }
-
     void tulostaKasi();
   
 private:

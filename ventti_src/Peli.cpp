@@ -9,6 +9,7 @@
 #include "Lista.h"
 #include <conio.h>
 #include "common_defs.h"
+#include <algorithm>
 using namespace std;
 
 void Peli::uusiPeli(string aNimi) {
@@ -128,14 +129,17 @@ int Peli::tallennaTiedostoon(string voittaja) {
 	if (voittaja == ""){
 		voittaja = tulostaVoittaja();
 	}
+	string aika;
 	std::time_t result = std::time(nullptr);
+	aika = std::ctime(&result);
+	replace(aika.begin(), aika.end(), '\n', '\0');
 	ofstream lista;
 	lista.open("toplista.txt", fstream::in | fstream::out | fstream::app);
 	if (!lista) { 
 		cout << "	Error: tiedostoa ei voitu avata." << endl;
 		exit(1);
 	}	
-	lista << (std::ctime(&result)) << " " << voittaja << endl;
+	lista << aika << " " << voittaja << endl;
 	lista.close();
 	return 0;
 }

@@ -14,7 +14,6 @@ public:
 	bool nostettu; 
 	int Tulostus();
 	void muutaAssa(int aArvo);
-
 	void HaeAssa();
 	
 	

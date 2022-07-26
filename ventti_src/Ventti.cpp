@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include "common_defs.h"
 #include "Peli.h"
