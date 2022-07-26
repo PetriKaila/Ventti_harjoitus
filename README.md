@@ -10,7 +10,7 @@ Toplistan nollaus, mikä poistaa Toplista.txt tiedoston.
 
 ## Asennus
 
-Pelin voi kloonata suoraan Visual Studioon, tai vaihtoehtoisesti olen koittanut Qt Creatoria lataamalla ja purkamalla .zip paketin ja avaamalla CMakeList.txt![qt3](https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/qt3.png)
+Pelin voi kloonata suoraan Visual Studioon, tai vaihtoehtoisesti olen koittanut Qt Creatoria, lataamalla ja purkamalla .zip paketin ja avaamalla CMakeList.txt:n![qt3](https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/qt3.png)
 
 Qt Creatorin projectin konfigurointi.
 
