@@ -16,7 +16,7 @@ Qt Creatorin projectin konfigurointi.
 
 ## Sääntöjä
 
-Ventissä tavoitteena on saada luku 21, tai mahdollisimman lähelle sitä. Jos kädessä olevat korttisi menevät yli 21, olet automaattisesti hävinnyt. Tässä versiossa pelataan vain jakajaa eli tietokonetta vastaan. Ässä on 1 tai 14 riippuen käsissäsi olevista korteista. Jos korttiesi summa on alle 7 on ässä on silloin 14. Jos päätät vielä tämän jälkeen kokeilla onneasi ja nostaa kortin, ja yhteissumaksi tulee yli seitsemän, muuttuu ässäkortti silloin ykköseksi. Vastaavasti, jos saat ässän ensimmäisenä, muuttuu se ykköseksi mikäli korttien yhteissumma ylittää 21. Pelin valikossa liikkuminen tapahtuu ilman enterin painallusta, ellei sitä erikseen pyydetä.
+Ventissä tavoitteena on saada luku 21, tai mahdollisimman lähelle sitä. Jos kädessä olevat korttisi menevät yli 21, olet automaattisesti hävinnyt. Tässä versiossa pelataan vain jakajaa eli tietokonetta vastaan. Ässä on 1 tai 14 riippuen käsissäsi olevista korteista. Jos korttiesi summa on alle 7 on ässä on silloin 14. Jos päätät vielä tämän jälkeen kokeilla onneasi ja nostaa kortin, ja yhteissumaksi tulee yli 21, muuttuu ässäkortti silloin ykköseksi. Vastaavasti, mikäli kädessäsi on arvoltaan 14 oleva ässä ja kädessä olevien korttien yhteissumma ylittää 21, ässä muuttuu 1:ksi Pelin valikossa liikkuminen tapahtuu ilman enterin painallusta, ellei sitä erikseen pyydetä.
 
 ![Assa2](https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/Assa2.png)	
 
