@@ -1,4 +1,6 @@
 # Ventti
+##### Tekijä Petri Kaila ATIS21K
+
 Ventti peli C++ kurssin lopputyönä. 
 
 ##### Tekijä Petri Kaila ATIS21K
