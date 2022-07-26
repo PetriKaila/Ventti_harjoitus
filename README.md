@@ -5,7 +5,7 @@ Ventti peli C++ kurssin lopputyönä.
 
 <img src="https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/Alkuvalikko.png" alt="Alkuvalikko" style="zoom:60%;" />
 
-Pelissä on päävalikko josta löytyy mm. tutoriaali. Peli alkaa 1 näppäimestä ja kysyy ensimmäisenä nimeäsi. Valikossa on myös Toplista joka on 20:een. 
+Pelissä on päävalikko josta löytyy mm. tutoriaali. Peli alkaa 1 näppäimestä ja kysyy ensimmäisenä nimeäsi. Valikossa on myös Toplista joka on 20:een pelaajaan saakka. 
 Toplistan nollaus, mikä poistaa Toplista.txt tiedoston.																									
 
 ## Asennus
