@@ -21,3 +21,6 @@ Ventissä tavoitteena on saada luku 21, tai mahdollisimman lähelle sitä. Jos k
 ![Assa2](https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/Assa2.png)	
 
 Esimerkki ässän käyttäytymisestä.
+
+# Video
+<video src='https://github.com/PetriKaila/Ventti_harjoitus/blob/master/media/Venttivideo.mp4' width=180/>
