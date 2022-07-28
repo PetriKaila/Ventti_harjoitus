@@ -8,7 +8,6 @@ class Kortti
 {
 public:
 	Kortti();
-
 	int arvo;
 	string maa;
 	bool nostettu; 

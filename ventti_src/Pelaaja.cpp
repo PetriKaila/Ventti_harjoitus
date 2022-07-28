@@ -14,8 +14,8 @@ void Pelaaja::tallennaKortti(Kortti* kortti) {
 		int assan_arvo = tarkistaArvo();
 		kortti->muutaAssa(assan_arvo);
 	}
-	// kun käden yhteisarvo on yli 21, tarkistetaan, onko kädessä 14-arvoisia ässiä
-	// ja mikäli on, muunnetaan ne 1:ksi
+	/* kun käden yhteisarvo on yli 21, tarkistetaan, onko kädessä 14 - arvoisia ässiä
+	 ja mikäli on, muunnetaan ne 1:ksi */
 	else if (laskeKasi() > 21) {
 		Kortti* assakortti = haeAssa();
 		if (assakortti != NULL) {
